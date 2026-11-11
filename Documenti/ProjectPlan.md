@@ -10,6 +10,7 @@ Sviluppato da:
 - Zineb Chakraoui, 1086381
 
 <br clear="left">
+
 Corso di Ingegneria del Software, A.A. 2026/2027, Università degli Studi di Bergamo.<br>
 Docente: prof. Angelo Gargantini. Esercitatrice: Silvia Bonfanti.
 
@@ -17,7 +18,7 @@ Storico delle versioni:
 
 | Versione | Modifiche |
 |---|---|
-| 1.0 | Prima versione del project plan |
+| 1.1 |Aggiunta la board Kanban nella sezione 5|
 
 # INDICE
 1. [Introduzione](#1-introduzione)
@@ -164,13 +165,14 @@ I test sono in una cartella separata (`src/test/java`), con la stessa struttura 
 ## 5. Attività di gestione
 Non abbiamo riunioni fisse ogni settimana. Ci aggiorniamo in modo asincrono, sul gruppo e su GitHub, e ci sentiamo quando serve.
 
-Per tenere traccia del lavoro usiamo la board Kanban di GitHub Projects, con queste colonne:
+Utilizziamo la Kanban board integrata su GitHub (GitHub Projects), tenendo traccia di:
 
-- da fare;
-- in corso;
-- in revisione (pull request aperta);
-- completato.
-
+- task assolutamente da svolgere (must have);
+- task in fase di implementazione (in progress);
+- task in fase di verifica e test;
+- task terminate (done);
+- task possibili da svolgere in futuro, ma non necessarie (could have).
+  
 Ogni attività è una issue, con una sola scheda sulla board, ed è assegnata a chi la prende in carico. Usiamo le etichette `bug`, `enhancement`, `documentation` e `question`. Le issue hanno anche un'etichetta di priorità secondo il metodo MoSCoW (must, should, could), così sulla board si vede subito cosa fare prima.
 
 
@@ -378,4 +380,4 @@ Al committente consegneremo il software funzionante e un unico PDF con tutta la 
 
 ---
 
-*Versione 1.0*
+*Versione 1.1*
