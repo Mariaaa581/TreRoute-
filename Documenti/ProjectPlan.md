@@ -1,13 +1,15 @@
-<p align="center"><b>Project Plan di Viavai</b></p>
+<br><br>
+<img src="immagini/LogoViavai.png" width="200px" align="left" style="margin-right:60px">
 
-<p align="center">Un'applicazione web di carpooling per gli spostamenti quotidiani brevi, che mette in contatto passeggeri e conducenti che fanno la stessa strada ogni giorno, per dividere le spese del viaggio.</p>
+<p align="center" style="margin:20px">Project Plan di sviluppo del software: Viavai, un'applicazione web di carpooling per gli spostamenti quotidiani brevi, che mette in contatto passeggeri e conducenti che fanno la stessa strada ogni giorno, per dividere le spese del viaggio.</p>
 
 Sviluppato da:
 
-- Meriame Benantar, matricola 1087369
-- Zineb Machal, matricola 1100565
-- Zineb Chakraoui, matricola 1086381
+- Meriame Benantar, 1087369
+- Zineb Machal, 1100565
+- Zineb Chakraoui, 1086381
 
+<br clear="left">
 Corso di Ingegneria del Software, A.A. 2026/2027, Università degli Studi di Bergamo.<br>
 Docente: prof. Angelo Gargantini. Esercitatrice: Silvia Bonfanti.
 
