@@ -72,8 +72,17 @@ Viavai è un'applicazione web di carpooling per i tragitti brevi che si fanno tu
 **Le zone.** Non usando le mappe, non calcoliamo le distanze in modo dinamico. Abbiamo diviso Bergamo e i comuni vicini in un certo numero di zone (per esempio Seriate, Dalmine, Treviolo, Città Alta) e salviamo nel database la distanza in km tra ogni coppia di zone. Da questa distanza parte il calcolo del prezzo massimo.
 
 #### 1.2 Struttura del documento
-*Da completare.*
+Questo documento raccoglie tutta la documentazione del progetto, tranne il project plan, che è un documento a parte. Come nel documento del ventilatore polmonare visto a lezione, inizia con le definizioni e le abbreviazioni usate ed è diviso in sei capitoli:
 
+- **Definizioni e abbreviazioni:** i termini principali (per esempio passaggio, prenotazione, zona) e le sigle usate (FUN, GUI, NFR, MDA).
+- **1. Introduzione:** cos'è Viavai e come è organizzato questo documento.
+- **2. Gestione del progetto:** il ciclo di vita del software che abbiamo scelto, come gestiamo il codice con Git e GitHub e come ci organizziamo come team.
+- **3. Requisiti:** come abbiamo raccolto i requisiti e l'elenco dei requisiti funzionali, dell'interfaccia e non funzionali, con la qualità del software.
+- **4. Design:** i diagrammi UML, l'architettura del software e i design pattern usati.
+- **5. Testing:** i casi di test e la copertura dei test.
+- **6. Manutenzione:** il refactoring fatto durante il progetto.
+
+Ogni requisito ha un identificativo (FUN.1, GUI.1, NFR.1) e nelle tabelle sono indicati i requisiti da cui dipende, così ognuno si può ritrovare nel design e nei test.
 
 ## 2. Gestione del progetto
 #### 2.1 Ciclo di vita del software
