@@ -92,7 +92,13 @@ Storico delle versioni:
 
 | ID | Requisito / Motivazione | Dipende da |
 |---|---|---|
-| FUN.9 | *Da completare* | |
+| FUN.9 | Il visitatore e il passeggero devono poter cercare i passaggi indicando zona di partenza, zona di arrivo, giorno e orario.<br>*Motivazione:* trovare un passaggio sulla propria strada, anche prima di registrarsi. | FUN.5 |
+| FUN.10 | Il passeggero registrato deve poter richiedere un posto su un passaggio scegliendo i giorni della settimana. Il sistema accetta la richiesta solo se il passaggio ha ancora un posto libero e crea la prenotazione nello stato "richiesta".<br>*Motivazione:* il conducente decide chi accettare, e non si può chiedere un posto che non c'è. | FUN.3, FUN.9 |
+| FUN.11 | Il conducente deve poter accettare o rifiutare una richiesta. Prima di accettare, il sistema controlla che ci sia ancora un posto libero e, se la richiesta è accettata, lo toglie dai posti liberi.<br>*Motivazione:* nel frattempo il posto può essere stato preso da un altro passeggero. | FUN.10 |
+| FUN.12 | Il passeggero deve poter annullare una sua prenotazione prima della partenza; il posto torna libero.<br>*Motivazione:* i programmi possono cambiare, e il posto liberato può essere preso da altri. | FUN.10 |
+| FUN.13 | Il sistema deve avvisare il conducente e il passeggero ogni volta che cambia lo stato di una prenotazione, e ogni utente registrato deve poter vedere le proprie notifiche.<br>*Motivazione:* entrambi devono sapere subito se il viaggio è confermato o annullato. | FUN.10 |
+| FUN.14 | Il conducente deve poter annullare un passaggio pubblicato; il sistema annulla tutte le prenotazioni collegate e avvisa i passeggeri.<br>*Motivazione:* il conducente può avere un imprevisto e i passeggeri devono saperlo subito. | FUN.5, FUN.13 |
+| FUN.15 | Se il conducente non accetta né rifiuta una richiesta entro 48 ore, il sistema porta la prenotazione nello stato "scaduta" e avvisa il passeggero.<br>*Motivazione:* una richiesta senza risposta non deve bloccare il passeggero, che dopo la scadenza può cercare un altro passaggio. | FUN.10, FUN.13 |
 
 #### 3.3 Requisiti dell'interfaccia
 
