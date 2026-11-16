@@ -66,7 +66,28 @@ Storico delle versioni:
 
 ## 3. Requisiti
 #### 3.1 Raccolta dei requisiti
-*Da completare.*
+La raccolta dei requisiti segue il processo visto a lezione: elicitazione, specifica, validazione e negoziazione con il committente. Lo ripetiamo a ogni sprint.
+
+**Il committente.** Il committente è immaginario: il mobility manager dell'Università di Bergamo, cioè chi si occupa di come studenti e personale raggiungono le sedi. Ci ha spiegato che il parcheggio della sede di Dalmine è spesso pieno e che molti studenti arrivano da soli in auto dagli stessi comuni. Per questo chiede un'app per far condividere il viaggio ai pendolari, a patto che resti una condivisione delle spese e non un servizio a pagamento. A turno una di noi fa la parte del committente.
+
+**Come abbiamo raccolto i requisiti.**
+
+- interviste al committente e scenari d'uso, che poi sono diventati i casi d'uso (vedi sezione 4.1);
+- la nostra esperienza di studentesse pendolari;
+- il confronto con app già esistenti, come BlaBlaCar;
+- brainstorming tra di noi.
+
+Per evitare ambiguità abbiamo preparato un glossario con i termini principali (vedi "Definizioni e abbreviazioni").
+
+**Priorità.** Usiamo il metodo MoSCoW:
+
+- *Must have:* i requisiti FUN.1–13, tutti i requisiti dell'interfaccia (GUI) e quelli non funzionali (NFR).
+- *Should have:* FUN.14 e FUN.15, cioè l'annullamento di un passaggio e la scadenza delle richieste.
+- *Won't have:* cose che abbiamo valutato ma che non faremo: i pagamenti dentro l'app (il passeggero paga il conducente direttamente, in contanti), il GPS in tempo reale durante il viaggio, un'app mobile nativa e i servizi esterni di mappe.
+
+Le idee nuove vanno sulla board come *could have* e non entrano nella prima versione.
+
+**Validazione.** Alla fine di ogni sprint il committente rilegge i requisiti e li approva.
 
 #### 3.2 Requisiti funzionali
 
