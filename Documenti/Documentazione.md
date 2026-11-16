@@ -47,7 +47,29 @@ Storico delle versioni:
 
 ## 1. Introduzione
 #### 1.1 Viavai
-*Da completare.*
+Viavai è un'applicazione web di carpooling per i tragitti brevi che si fanno tutti i giorni, come casa-università o casa-lavoro. Mette in contatto conducenti e passeggeri che fanno la stessa strada ogni giorno, così che possano dividersi le spese del viaggio.
+
+**Perché Viavai.** L'idea nasce dalla nostra esperienza di studentesse pendolari: molte persone fanno ogni mattina la stessa strada da sole in macchina, mentre altre la fanno con i mezzi pubblici o cercano un passaggio. Le app che esistono già, come BlaBlaCar, sono pensate soprattutto per viaggi lunghi e occasionali, non per i tragitti brevi e ripetuti.
+
+**Il committente.** Il progetto è customer-driven. Il committente è immaginario: il mobility manager dell'Università di Bergamo, cioè chi si occupa di come studenti e personale raggiungono le sedi. Ci ha spiegato che il parcheggio della sede di Dalmine è spesso pieno e che molti studenti arrivano da soli in auto dagli stessi comuni. Per questo ci chiede un'app per far condividere il viaggio ai pendolari.
+
+**Un vincolo importante.** Viavai deve restare un servizio di condivisione delle spese e non diventare un servizio di trasporto a pagamento. Per questo il prezzo che un conducente può chiedere ha un limite massimo, calcolato dall'applicazione (vedi FUN.6 e FUN.7).
+
+**L'utente tipo.** È uno studente o un giovane lavoratore che fa ogni giorno lo stesso tragitto. Per esempio Marco, 24 anni, studia Ingegneria a Dalmine e parte ogni mattina da Seriate: vorrebbe spendere meno di benzina dividendo il viaggio con altri studenti che fanno la sua stessa strada.
+
+**La prima versione.** È pensata per l'area di Bergamo e permette di:
+
+- registrarsi e accedere, scegliendo il ruolo di passeggero o di conducente;
+- pubblicare un passaggio ricorrente (partenza, arrivo, orario, giorni della settimana, posti liberi, prezzo);
+- cercare un passaggio e richiedere un posto;
+- accettare o rifiutare le richieste, da parte del conducente;
+- controllare in automatico che il prezzo non superi il massimo;
+- ricevere notifiche quando cambia lo stato di una prenotazione;
+- usare l'interfaccia in italiano e in inglese.
+
+**Cosa non facciamo.** Abbiamo deciso di lasciare fuori dalla prima versione i pagamenti dentro l'app (il passeggero paga il conducente direttamente, in contanti), il GPS in tempo reale durante il viaggio, un'app mobile nativa (Viavai è un'applicazione web, che però si adatta anche allo schermo del telefono) e i servizi esterni di mappe.
+
+**Le zone.** Non usando le mappe, non calcoliamo le distanze in modo dinamico. Abbiamo diviso Bergamo e i comuni vicini in un certo numero di zone (per esempio Seriate, Dalmine, Treviolo, Città Alta) e salviamo nel database la distanza in km tra ogni coppia di zone. Da questa distanza parte il calcolo del prezzo massimo.
 
 #### 1.2 Struttura del documento
 *Da completare.*
