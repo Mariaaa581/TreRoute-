@@ -70,9 +70,26 @@ Storico delle versioni:
 
 #### 3.2 Requisiti funzionali
 
+##### 3.2.1 Registrazione e accesso
+
 | ID | Requisito / Motivazione | Dipende da |
 |---|---|---|
-| FUN.1 | *Da completare* | |
+| FUN.1 | Il visitatore deve poter registrarsi inserendo nome, cognome, email e password. L'email non può essere già usata da un altro utente.<br>*Motivazione:* per offrire o prenotare un passaggio serve un account personale, e l'email permette di riconoscere l'utente. | – |
+| FUN.2 | Durante la registrazione l'utente deve scegliere il proprio ruolo: conducente o passeggero. Un utente ha un solo ruolo.<br>*Motivazione:* il ruolo decide cosa può fare: il conducente pubblica i passaggi, il passeggero li prenota. | FUN.1 |
+| FUN.3 | L'utente registrato deve poter accedere con email e password.<br>*Motivazione:* proteggere i dati e le prenotazioni di ogni utente. | FUN.1 |
+| FUN.4 | Il conducente deve registrare almeno un veicolo indicando modello, targa e numero di posti.<br>*Motivazione:* il numero di posti limita i passaggi che può pubblicare e le prenotazioni che può accettare. | FUN.2 |
+
+##### 3.2.2 Passaggi e prezzo
+
+| ID | Requisito / Motivazione | Dipende da |
+|---|---|---|
+| FUN.5 | *Da completare* | |
+
+##### 3.2.3 Prenotazioni e notifiche
+
+| ID | Requisito / Motivazione | Dipende da |
+|---|---|---|
+| FUN.9 | *Da completare* | |
 
 #### 3.3 Requisiti dell'interfaccia
 
