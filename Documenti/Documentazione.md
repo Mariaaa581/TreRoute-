@@ -89,7 +89,31 @@ Ogni requisito ha un identificativo (FUN.1, GUI.1, NFR.1) e nelle tabelle sono i
 *Da completare.*
 
 #### 2.2 Configuration management
-*Da completare.*
+
+Usiamo Git e GitHub per tenere tutto il lavoro sotto controllo di versione. Il repository è condiviso con i docenti (gli account garganti e silviabonfanti), e per le dipendenze del codice usiamo Maven.
+
+Nel repository ci sono i documenti (cartella Documenti), con le immagini dei diagrammi (immagini) e i progetti StarUML (uml). Il project plan e questa documentazione hanno uno storico delle versioni all'inizio del file: ogni nuova versione viene salvata con un commit che spiega cosa è cambiato, e grazie a GitHub possiamo sempre tornare a una versione precedente se qualcosa va storto.
+
+**Regole per i commit e i branch**
+
+Il branch main contiene solo versioni che funzionano. Ogni nuova funzionalità del codice si sviluppa in un branch separato, e prima di entrare in main la pull request viene controllata da almeno un'altra di noi. La documentazione la scriviamo in Markdown direttamente su GitHub, un pezzo alla volta, con un commit per ogni parte.
+
+I messaggi dei commit dicono in modo chiaro cosa è stato fatto, e nella descrizione scriviamo cosa abbiamo scritto o aggiornato. Se un lavoro ha una issue, scriviamo il suo numero nel commit (per esempio #3), così il commit compare nella issue. Facciamo commit e push spesso, almeno una volta al giorno quando lavoriamo, per non perdere lavoro.
+
+Il codice generato da StarUML lo teniamo, dove possibile, separato da quello scritto a mano, e lo rigeneriamo solo dopo aver fatto commit delle modifiche, per non sovrascrivere il lavoro fatto a mano.
+
+**Gestione delle modifiche**
+
+Quando vogliamo cambiare qualcosa, per esempio un requisito o il project plan, seguiamo questi passi:
+
+1. Proposta: chi vuole la modifica apre una issue su GitHub, spiegando cosa vuole cambiare e perché.
+2. Valutazione: ne parliamo insieme e la approviamo solo se è necessaria e rispetta i requisiti, considerando anche quanto tempo richiede e quali parti già fatte tocca.
+3. Implementazione: la modifica si fa seguendo le regole di sopra, e insieme al codice aggiorniamo anche la documentazione, i diagrammi e i test collegati.
+4. Versione: il commit spiega cosa è cambiato e, se serve, cambiamo il numero di versione del documento.
+
+**Issue e Kanban board**
+
+Per organizzarci usiamo le issue e la Kanban board di GitHub Projects. Ogni attività è una issue, con una sola scheda sulla board, assegnata a chi la prende in carico. Le etichette sono bug, enhancement, documentation e question, più una di priorità (must have, should have, could have). Le colonne della board sono: must have, in progress, verifica e test, done e could have.
 
 #### 2.3 Organizzazione del team
 
