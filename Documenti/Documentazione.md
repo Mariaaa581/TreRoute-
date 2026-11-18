@@ -92,8 +92,16 @@ Ogni requisito ha un identificativo (FUN.1, GUI.1, NFR.1) e nelle tabelle sono i
 *Da completare.*
 
 #### 2.3 Organizzazione del team
-*Da completare.*
 
+Siamo in tre: Meriame Benantar, Zineb Machal e Zineb Chakraoui. Non abbiamo una gerarchia e non abbiamo ruoli fissi: lavoriamo tutte su tutte le parti del progetto (requisiti, diagrammi, codice, test e documentazione), un po' come in un team agile. Ognuna di noi fa a turno l'analista, la progettista, la sviluppatrice e la tester.
+
+All'inizio di ogni sprint decidiamo insieme le attività e ognuna prende quelle che riesce a fare in quel momento. Per i requisiti e per i diagrammi ci siamo divise le parti (vedi il capitolo 3 e il README della cartella uml), ma poi controlliamo tutte il lavoro delle altre, così all'orale sappiamo spiegare tutto. Il diagramma delle classi lo facciamo insieme, perché è la base di tutto. Il lavoro di ognuna si vede dalla cronologia dei commit e dalle issue su GitHub.
+
+Per i requisiti il nostro riferimento è il committente, cioè il mobility manager immaginario dell'Università di Bergamo, e a turno una di noi fa la sua parte. Per tutto il resto il riferimento sono i docenti del corso, che approvano il progetto. 
+
+Per comunicare usiamo un gruppo WhatsApp, con cui ci organizziamo giorno per giorno. Le discussioni su una singola attività le scriviamo nei commenti della issue, e quando serve decidere qualcosa insieme facciamo una breve videochiamata. Non abbiamo riunioni fisse ogni settimana.
+
+Secondo le indicazioni del corso ognuna dovrebbe dedicare al progetto circa 30-40 ore, quindi in totale prevediamo tra le 90 e le 120 ore.
 
 ## 3. Requisiti
 #### 3.1 Raccolta dei requisiti
