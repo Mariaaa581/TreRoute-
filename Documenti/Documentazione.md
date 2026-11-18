@@ -19,6 +19,7 @@ Storico delle versioni:
 | Versione | Modifiche |
 |---|---|
 | 0.1 | Struttura del documento con i capitoli |
+| 0.2 | Aggiunti introduzione, gestione del progetto, raccolta dei requisiti e requisiti funzionali |
 
 # INDICE
 0. [Definizioni e abbreviazioni](#definizioni-e-abbreviazioni)
