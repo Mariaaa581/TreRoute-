@@ -86,7 +86,16 @@ Ogni requisito ha un identificativo (FUN.1, GUI.1, NFR.1) e nelle tabelle sono i
 
 ## 2. Gestione del progetto
 #### 2.1 Ciclo di vita del software
-*Da completare.*
+
+Abbiamo scelto un modello di sviluppo incrementale e iterativo, organizzato in quattro sprint.
+
+È incrementale perché ogni sprint aggiunge una parte del sistema, e alla fine di ognuno abbiamo una versione che funziona, anche se incompleta. È iterativo perché non chiudiamo una fase per sempre: quando il codice cambia, aggiorniamo anche i requisiti, i diagrammi e i documenti. Ci è sembrato adatto anche perché Spring Boot, JSP e Spring Security sono nuovi per noi: con una versione funzionante a ogni sprint ci accorgiamo presto dei problemi.
+
+Non abbiamo scelto un modello completamente agile perché il corso chiede una documentazione completa (requisiti, diagrammi UML, architettura, test), che non vogliamo lasciare alla fine. Per questo i primi due sprint sono quelli più dedicati a requisiti, modellazione e progettazione.
+
+Gli sprint seguono l'ordine in cui costruiamo il sistema: 1) requisiti, 2) modello e dati (classi e database), 3) servizi (logica, accesso e API REST), 4) interfaccia e test, con il completamento della documentazione.
+
+Seguiamo in parte anche l'approccio MDA visto a lezione: dal diagramma delle classi in StarUML generiamo una prima versione delle classi Java, che poi completiamo a mano.
 
 #### 2.2 Configuration management
 
@@ -221,5 +230,5 @@ Le idee nuove vanno sulla board come *could have* e non entrano nella prima vers
 *Da completare.*
 
 ---
-
-*Versione 0.1*
+Data di creazione: 09/11/2026
+Ultima modifica: 18/11/2026
