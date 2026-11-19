@@ -52,10 +52,6 @@ Non fanno parte della prima versione: i pagamenti dentro l'app (il passeggero pa
 | [Documentazione](Documenti/Documentazione.md) | introduzione, gestione del progetto, requisiti, design, testing e manutenzione |
 | [Diagrammi UML](Documenti/uml) | i progetti StarUML, con la descrizione di ogni diagramma |
 
-Un esempio, il diagramma dei casi d'uso:
-
-<p align="center"><img src="Documenti/immagini/UseCase.png" width="720px" alt="Diagramma dei casi d'uso di Viavai"></p>
-
 ## Come lavoriamo
 
 - Lavoriamo per **sprint**, con un modello incrementale e iterativo: requisiti, modello e dati, servizi, interfaccia e test.
