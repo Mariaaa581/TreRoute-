@@ -35,9 +35,16 @@ Storico delle versioni:
 
 | Termine | Significato |
 |---|---|
-| Passaggio | *Da completare* |
-| Prenotazione | *Da completare* |
-| Zona | *Da completare* |
+| Visitatore | Chi usa Viavai senza avere un account. Può solo cercare i passaggi e registrarsi. |
+| Utente registrato | Chi ha un account e ha scelto se essere conducente o passeggero. |
+| Conducente | Utente registrato che offre un passaggio con la sua auto e decide chi accettare. |
+| Passeggero | Utente registrato che cerca un passaggio e chiede un posto al conducente. |
+| Passaggio | Il viaggio che un conducente offre: da una zona di partenza a una di arrivo, a una certa ora e in certi giorni della settimana. Si pubblica una volta sola e vale ogni settimana. |
+| Prenotazione | La richiesta di un posto su un passaggio. Ha uno stato: richiesta, confermata, in corso, completata, rifiutata, annullata o scaduta. |
+| Zona | Un'area di Bergamo o di un comune vicino (per esempio Seriate, Dalmine, Treviolo o Città Alta), che si usa come partenza o arrivo. Per ogni coppia di zone salviamo la distanza in km. |
+| Prezzo massimo | Il prezzo più alto che il conducente può chiedere a ogni passeggero. Lo calcoliamo come km × 0,20 € ÷ persone in auto, conducente compreso. |
+| Posti liberi | I posti che il conducente offre su un passaggio. Al massimo sono i posti dell'auto meno uno, perché uno è il suo. |
+| Condivisione delle spese | Il passeggero rimborsa al conducente una parte delle spese del viaggio, ma il conducente non ci deve guadagnare. |
 
 | Abbreviazione | Significato |
 |---|---|
