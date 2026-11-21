@@ -20,6 +20,7 @@ Storico delle versioni:
 |---|---|
 | 0.1 | Struttura del documento con i capitoli |
 | 0.2 | Aggiunti introduzione, gestione del progetto, raccolta dei requisiti e requisiti funzionali |
+| 0.3 | Aggiunto il glossario con le definizioni dei termini principali |
 
 # INDICE
 0. [Definizioni e abbreviazioni](#definizioni-e-abbreviazioni)
@@ -239,4 +240,4 @@ Le idee nuove vanno sulla board come *could have* e non entrano nella prima vers
 
 ---
 Data di creazione: 09/11/2026
-Ultima modifica: 18/11/2026
+Ultima modifica: 21/11/2026
