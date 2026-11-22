@@ -212,7 +212,16 @@ Le idee nuove vanno sulla board come *could have* e non entrano nella prima vers
 *Da completare.*
 
 #### 3.5 Qualità del software
-*Da completare.*
+Le qualità che ci interessano di più sono quattro. Per ognuna diciamo come la verifichiamo.
+
+| Qualità | Come la verifichiamo |
+|---|---|
+| Correttezza: il prezzo non supera mai il massimo (NFR.3) | Con test JUnit sul calcolo del prezzo: prezzo uguale al limite, appena sopra il limite e distanza zero. |
+| Usabilità: l'app è semplice da usare anche dal telefono (GUI.2) | La proviamo sul browser del telefono fin dall'inizio e nei test di sistema. |
+| Manutenibilità: livelli e package senza cicli (NFR.5, NFR.7) | Con SonarLint e PMD, e con alcune metriche del codice nella relazione finale (per una piccola parte anche la complessità di McCabe). |
+| Portabilità: parte su qualsiasi computer con Java e Maven (NFR.1) | La proviamo su un secondo computer prima della consegna. |
+
+Facciamo tre tipi di test: di unità (soprattutto sui servizi, con Mockito al posto del database), di integrazione (sugli endpoint REST e sulle pagine, con H2 in memoria) e di sistema, usando noi l'applicazione con dati di esempio. Con JaCoCo misuriamo la copertura e puntiamo al 60-70% dei servizi, ma non c'è un controllo automatico. Come controlliamo le modifiche prima di unirle è scritto nella sezione 2.2.
 
 
 ## 4. Design
