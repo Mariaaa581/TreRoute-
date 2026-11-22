@@ -21,6 +21,7 @@ Storico delle versioni:
 | 0.1 | Struttura del documento con i capitoli |
 | 0.2 | Aggiunti introduzione, gestione del progetto, raccolta dei requisiti e requisiti funzionali |
 | 0.3 | Aggiunto il glossario con le definizioni dei termini principali |
+| 0.4 | Completati i requisiti dell'interfaccia e non funzionali, la qualità del software e la sigla NFR |
 
 # INDICE
 0. [Definizioni e abbreviazioni](#definizioni-e-abbreviazioni)
@@ -271,4 +272,4 @@ Facciamo tre tipi di test: di unità (soprattutto sui servizi, con Mockito al po
 
 ---
 Data di creazione: 09/11/2026
-Ultima modifica: 21/11/2026
+Ultima modifica: 22/11/2026
