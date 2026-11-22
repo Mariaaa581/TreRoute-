@@ -221,8 +221,19 @@ Le idee nuove vanno sulla board come *could have* e non entrano nella prima vers
 | GUI.13 | Il conducente ha una pagina per registrare il suo veicolo (modello, targa, posti) e un elenco dei suoi passaggi, da cui può annullarne uno.<br>*Motivazione:* senza questa pagina non si potrebbero usare le funzioni sul veicolo e sull'annullamento di un passaggio. | FUN.4, FUN.14 |
 
 #### 3.4 Requisiti non funzionali
-*Da completare.*
 
+Questi requisiti vengono dal project plan (sezioni 4, 9 e 11) e da quello che chiede il corso.
+
+| ID | Requisito / Motivazione | Dipende da |
+|---|---|---|
+| NFR.1 | Il progetto si avvia con Java e Maven: si scarica il repository e si avvia il progetto Maven. Un README spiega come fare.<br>*Motivazione:* all'esame portiamo un portatile, e deve partire anche su un computer diverso dal nostro. | – |
+| NFR.2 | Non usiamo servizi esterni (server, Docker, mappe): il database è H2, dentro l'applicazione.<br>*Motivazione:* lo chiede il corso. | – |
+| NFR.3 | Un passaggio con un prezzo sopra il massimo non viene mai salvato, nemmeno chiamando l'API REST.<br>*Motivazione:* se il controllo fosse solo nelle pagine, si potrebbe aggirare. | FUN.7 |
+| NFR.4 | Registrazione e accesso usano Spring Security. Ognuno vede e modifica solo i suoi passaggi e le prenotazioni che lo riguardano.<br>*Motivazione:* i dati di ogni utente devono essere protetti. | FUN.3 |
+| NFR.5 | Il codice ha tre livelli (pagine JSP, logica, accesso ai dati) ed è diviso in due progetti Eclipse, `VVI_core` e `VVI_webapp`. I package non hanno cicli.<br>*Motivazione:* il prefisso `VVI_` lo chiede il corso, e senza cicli il codice è più facile da mantenere. | – |
+| NFR.6 | Alla partenza della demo ci sono già le zone di Bergamo con le distanze in km, qualche utente e qualche passaggio.<br>*Motivazione:* senza le distanze non si calcola il prezzo massimo, e servono per i test di sistema. | FUN.6 |
+| NFR.7 | Il codice segue le convenzioni Java di Oracle (nomi, 4 spazi, Javadoc per classi, interfacce e metodi pubblici), con i package sotto `it.unibg.viavai` e senza percorsi assoluti del nostro computer.<br>*Motivazione:* così il codice è leggibile da tutte e funziona su qualsiasi computer. | – |
+| NFR.8 | Per i log usiamo Log4j2.<br>*Motivazione:* ce lo consiglia il corso. | – |
 #### 3.5 Qualità del software
 Le qualità che ci interessano di più sono quattro. Per ognuna diciamo come la verifichiamo.
 
@@ -234,7 +245,6 @@ Le qualità che ci interessano di più sono quattro. Per ognuna diciamo come la 
 | Portabilità: parte su qualsiasi computer con Java e Maven (NFR.1) | La proviamo su un secondo computer prima della consegna. |
 
 Facciamo tre tipi di test: di unità (soprattutto sui servizi, con Mockito al posto del database), di integrazione (sugli endpoint REST e sulle pagine, con H2 in memoria) e di sistema, usando noi l'applicazione con dati di esempio. Con JaCoCo misuriamo la copertura e puntiamo al 60-70% dei servizi, ma non c'è un controllo automatico. Come controlliamo le modifiche prima di unirle è scritto nella sezione 2.2.
-
 
 ## 4. Design
 #### 4.1 Diagrammi UML
