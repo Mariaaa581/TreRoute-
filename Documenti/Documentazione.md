@@ -206,7 +206,19 @@ Le idee nuove vanno sulla board come *could have* e non entrano nella prima vers
 
 | ID | Requisito / Motivazione | Dipende da |
 |---|---|---|
-| GUI.1 | *Da completare* | |
+| GUI.1 | L'interfaccia è in italiano e in inglese: l'utente può cambiare lingua da qualsiasi pagina e tutti i testi dell'interfaccia compaiono nella lingua scelta (non quelli scritti dagli utenti, come le note di un passaggio).<br>*Motivazione:* è prevista nella prima versione e permette di usare Viavai anche a chi non parla italiano. | – |
+| GUI.2 | Tutte le pagine si possono usare da uno schermo di telefono (larghezza di 360 pixel) senza scorrere in orizzontale.<br>*Motivazione:* Viavai è un'applicazione web e non un'app mobile, ma si deve poter usare anche dal telefono. | – |
+| GUI.3 | La prima pagina presenta Viavai e porta alla ricerca, alla registrazione e all'accesso.<br>*Motivazione:* chi arriva per la prima volta deve capire subito cosa può fare. | FUN.1, FUN.3, FUN.9 |
+| GUI.4 | Le zone di partenza e di arrivo si scelgono da un elenco, nella pubblicazione e nella ricerca.<br>*Motivazione:* le distanze sono salvate solo tra le zone dell'elenco, e così non ci sono errori di scrittura. | FUN.5, FUN.9 |
+| GUI.5 | Nella pagina di pubblicazione, accanto al prezzo, c'è il prezzo massimo consentito per le zone e i posti scelti, prima di inviare il modulo.<br>*Motivazione:* il conducente vede il limite subito e non scopre l'errore dopo. | FUN.6, FUN.7 |
+| GUI.6 | Quando un'operazione non è permessa (prezzo troppo alto, nessun posto libero, email già usata, email o password sbagliate) la pagina spiega il motivo, nella lingua scelta, senza cancellare i dati già inseriti.<br>*Motivazione:* l'utente deve capire cosa è andato storto e correggerlo senza ricominciare. | FUN.1, FUN.3, FUN.7, FUN.10 |
+| GUI.7 | La ricerca mostra, per ogni passaggio, zona di partenza, zona di arrivo, orario, giorni, posti liberi e prezzo.<br>*Motivazione:* il passeggero confronta i passaggi a colpo d'occhio. | FUN.9 |
+| GUI.8 | La pagina di dettaglio di un passaggio mostra anche punto d'incontro, note, pedaggi e bagagli, se il conducente li ha indicati.<br>*Motivazione:* sono informazioni facoltative che servono solo a chi guarda quel passaggio da vicino. | FUN.5, FUN.9 |
+| GUI.9 | Il passeggero ha una pagina "Le mie prenotazioni" con, per ognuna, il passaggio e lo stato (richiesta, confermata, rifiutata, annullata o scaduta), e il pulsante per annullarla.<br>*Motivazione:* il passeggero deve sapere a che punto è ogni richiesta. | FUN.10, FUN.12, FUN.15 |
+| GUI.10 | Il conducente ha una pagina "Richieste" con le richieste in attesa per i suoi passaggi e i pulsanti Accetta e Rifiuta.<br>*Motivazione:* il conducente trova tutte le richieste in un solo posto. | FUN.11 |
+| GUI.11 | Le notifiche sono in una pagina dedicata, dalla più recente alla meno recente.<br>*Motivazione:* ognuno può rivedere cosa è cambiato nelle sue prenotazioni. | FUN.13 |
+| GUI.12 | Dopo la registrazione, la pubblicazione di un passaggio, la richiesta di un posto e l'accettazione o il rifiuto di una richiesta c'è una pagina di conferma.<br>*Motivazione:* l'utente capisce che l'azione è andata a buon fine. | FUN.1, FUN.5, FUN.10, FUN.11 |
+| GUI.13 | Il conducente ha una pagina per registrare il suo veicolo (modello, targa, posti) e un elenco dei suoi passaggi, da cui può annullarne uno.<br>*Motivazione:* senza questa pagina non si potrebbero usare le funzioni sul veicolo e sull'annullamento di un passaggio. | FUN.4, FUN.14 |
 
 #### 3.4 Requisiti non funzionali
 *Da completare.*
