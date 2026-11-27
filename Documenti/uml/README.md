@@ -5,8 +5,7 @@ In questa cartella ci sono i file StarUML (`.mdj`) con i diagrammi UML di Viavai
 ## Contenuto della cartella
 
 * `usecase.mdj`: diagramma dei casi d'uso (Meriame)
-
-Gli altri file verranno aggiunti durante gli sprint, e questo elenco verrà aggiornato.
+* `class.mdj`: diagramma delle classi, in costruzione (per ora c'è la parte utenti e ruoli, di Meriame)Gli altri file verranno aggiunti durante gli sprint, e questo elenco verrà aggiornato.
 
 ## Divisione dei diagrammi
 
@@ -15,12 +14,12 @@ Per ogni diagramma c'è una persona che se ne occupa, con il supporto delle altr
 | Diagramma | Chi se ne occupa | Sprint | Stato |
 |---|---|---|---|
 | Casi d'uso | Meriame | 1 | fatto |
-| Classi | Meriame, Zineb M. e Zineb C. insieme | 2 | da fare |
-| Macchina a stati (prenotazione) | Zineb C. | 2 | da fare |
+| Classi | Meriame (utenti e ruoli), Zineb M. (passaggi, zone e prezzo), Zineb C. (prenotazioni e notifiche) | 2 | in corso: fatta la parte utenti e ruoli |
+| Macchina a stati (prenotazione) | Zineb M. | 2 | da fare |
 | Attività | Zineb C. | 2 | da fare |
-| Sequenza | Zineb M. | 3 | da fare |
+| Sequenza | Meriame | 3 | da fare |
 | Comunicazione | Zineb M. | 3 | da fare |
-| Componenti | Meriame | da decidere | da fare |
+| Componenti | Zineb C. | da decidere | da fare |
 | Package | Meriame | da decidere | da fare |
 
 ## Descrizione dei diagrammi
